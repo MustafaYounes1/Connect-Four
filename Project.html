@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="JQuery/jQuery.js"></script>
+    <link rel="stylesheet" href="Bootstrap/bootstrap-4.5.3-dist/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        h1{
+            color: white;
+            background-color: #2b2926;
+            padding: 20px;
+        }
+        footer{
+            background-color: #0e0d0c;
+            color: white;
+            padding: 20px;
+            margin: 10px;
+            font-size: x-large;
+            display: block;
+            height: 80px;
+        }
+        body{
+            text-align: center;
+        }
+        button{
+            border: 1px solid black;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: gray; 
+        }
+        button:active, button:hover, button:focus{
+            outline: none;
+        }
+
+        label{
+            width: 200px;
+            font-size: xx-large;
+            margin-top: auto;
+            font-weight: bolder;
+            font-style: italic;
+        }
+
+        #p-one{
+            float: left;
+            color: rgb(237, 45, 73);
+        }
+        #p-two{
+            float: right;
+            color: rgb(86, 151, 255);
+        }
+        #restart{
+            background-color: #2b2926;
+            color: white;
+            width: 250px;
+            margin-top: 10px;
+            font-size: x-large;
+            border-radius: 0px;
+        }
+        #restart:active{
+            background-color: black;
+            color: white;
+        }
+        .lbl{
+            border: 3px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to '<em>Connect Four Cells</em>' game</h1>
+        <h6>The target of this game is to Connect four of these cells horizontally, vertically, or diagonally...</h6>
+
+        <label id="p-one">Player 1</label>
+        <label id="p-two">Player 2</label>        
+        <table align="center">
+            <tr>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+            </tr>
+            <tr>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+            </tr>
+            <tr>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+            </tr>
+            <tr>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+            </tr>
+            <tr>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+            </tr>
+            <tr>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+            </tr>
+            <tr>
+                <td colspan="7"><button type="button" id="restart">Restart</button></td>
+            </tr>
+        </table>
+        <footer></footer>
+    </div>
+    <script src="Project.js"></script>
+</body>
+</html>
